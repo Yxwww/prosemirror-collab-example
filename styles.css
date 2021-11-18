@@ -21,11 +21,6 @@ div#editor {
 }
 
 .container {
-  height: 100vh;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  flex-direction: column;
 }
 
 
