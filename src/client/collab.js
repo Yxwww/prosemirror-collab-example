@@ -287,7 +287,6 @@ let connection = null
 
 function connectFromHash() {
   let isID = /^#edit-(.+)/.exec(location.hash)
-  console.log('isID', isID);
   if (isID) {
     if (connection) connection.close()
     info.name.textContent = decodeURIComponent(isID[1])

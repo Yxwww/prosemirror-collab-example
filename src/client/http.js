@@ -35,7 +35,7 @@ function makePlain(html) {
 }
 
 export function GET(url) {
-  console.log('GET', url)
+  console.log('[GET]', url)
   return req({url, method: "GET"})
 }
 
