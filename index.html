@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Collab</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <link rel="stylesheet" type="text/css" href="./node_modules/prosemirror-menu/style/menu.css" />
+    <link rel="stylesheet" type="text/css" href="./node_modules/prosemirror-example-setup/style/style.css" />
+  </head>
+  <body>
+    <div class="container">
+    <div id="editor" style="margin-bottom: 0"></div>
+    <div class="docinfo">
+      Connected to:
+      <span id="connected">
+        <span id="docname">None</span>
+        <span id="users"></span>
+        <button type="button" id="changedoc">Change</button>
+      </span>
+    </div>
+    <script src="./build/client.build.js"></script>
+      <script>
+        console.log('window.start', window.start)
+        window.start()
+      </script>
+    </div>
+  </body>
+</html>
