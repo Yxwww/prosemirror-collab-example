@@ -6,8 +6,7 @@ Stripped out prosemirror website collab example into a stand alone environment f
 
 ```bash
 npm install
-npm run watch
-npm run start
+npm start
 ```
 
 ## Why not directly use prosemirror/website?
