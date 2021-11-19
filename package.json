@@ -25,7 +25,7 @@
   "scripts": {
     "watch-client-build": "esbuild src/client/collab.js --bundle --outfile=build/client.build.js --watch",
     "run-server": "node src/run.js",
-    "start": "npm-run-all watch-client-build run-server"
+    "start": "run-p watch-client-build run-server"
   },
   "name": "prosemirror-collab-example",
   "version": "0.0.0",
