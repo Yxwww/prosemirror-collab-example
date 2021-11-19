@@ -133,6 +133,7 @@ function commentTooltip(state, dispatch) {
   if (!sel.empty) return null
   let comments = commentPlugin.getState(state).commentsAt(sel.from)
   if (!comments.length) return null
+  console.log('widget', sel.from)
   return DecorationSet.create(state.doc, [Decoration.widget(sel.from, renderComments(comments, dispatch, state))])
 }
 
